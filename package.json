@@ -1,7 +1,7 @@
 {
   "name": "@mcowger/pi-better-messages-cache",
   "version": "1.5.0",
-  "description": "Pi extension: dual cache-breakpoint strategy for Anthropic models — marks both the last assistant tool_use block and the last user message block with cache_control, dramatically improving cache hit rates on MiniMax, Kimi, and other Anthropic-compatible providers.",
+  "description": "Deprecated Pi extension for the MiniMax/Kimi Anthropic dual cache-breakpoint workaround.",
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -38,8 +38,8 @@
     "vitest": "^3.0.0"
   },
   "peerDependencies": {
-    "@earendil-works/pi-ai": "*",
-    "@earendil-works/pi-coding-agent": "*",
-    "@sinclair/typebox": "*"
+    "@earendil-works/pi-ai": "^0.80.6",
+    "@earendil-works/pi-coding-agent": "^0.80.6",
+    "@sinclair/typebox": "^1.1.38"
   }
 }
